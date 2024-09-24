@@ -64,15 +64,3 @@ class Manejo_datos():
 
     except Error as er:
         print('Error durante la conexion:', er)
-
-# datos1 = Manejo_datos()
-# id = 18
-# nombre = 'Porcion Ensalada Piña'
-# precio = 2000
-# cantidad = 100
-# datos1.insertar_producto(nombre, precio,cantidad)
-# datos1.listar_productos()
-# datos1.buscar_producto(id)
-# datos1.eliminar_producto(id)
-# datos1.actualizar_producto(nombre, precio, cantidad, id)
-
